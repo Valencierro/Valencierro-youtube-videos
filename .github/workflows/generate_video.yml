@@ -1,5 +1,5 @@
 name: Generate 1 hour Video
-
+ 
 on:
   workflow_dispatch:
   schedule:
