@@ -231,13 +231,22 @@ echo "✅ Video created: $OUT_FILE ($(du -h "$OUT_FILE" | cut -f1))"
 if [ -f "$OUT_FILE" ]; then
     echo "📤 Step 4: Pushing to GitHub Releases..."
     
-    DESCRIPTION="🎧 Listen on Spotify:
+DESCRIPTION="🎧 Listen on Spotify:
 $SPOTIFY_PLAYLIST
+
+🎵 Listen on Apple Music:
+$APPLE_MUSIC_PLAYLIST
+
+▶️ Listen on YouTube Music:
+$YOUTUBE_MUSIC_PLAYLIST
+
+🎧 Listen on Amazon Music:
+$AMAZON_MUSIC_PLAYLIST
 
 🚀 Want your track featured:
 https://www.fiverr.com/hitblazz/promote-your-ambient-music-tracks
 
-#aesthetic #snow #winter #moody #cinematic #vibes #nyc #snowing #nature"
+#Success #Motivation #SuccessMindset #DreamBig #NeverGiveUp #StayFocused #BelieveInYourself #WorkHard #HustleHard"
 
     TAG_NAME="video-$(date +%s)"
     CLEAN_TITLE=$(echo "$SELECTED_TITLE" | tr '_' ' ')
