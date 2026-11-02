@@ -13,6 +13,9 @@ export AUDIO_FOLDER_ID="1IgGUF3cbHUU5YpG7s5QLKRBDQsuV81FU"
 export SCRATCHES_FOLDER_ID="1KFVM3On0ELnMAqbpaJbNdlLeI12V9Ln0"
 export SPOTIFY_FILE_ID="1fIcEuSGsSBaRWO9OsFZYCTcynhMs7XOh"
 export SPOTIFY_PLAYLIST="https://open.spotify.com/playlist/0s4PNkZa5d7asmDZdGKJAn?go=1"
+export APPLE_MUSIC_PLAYLIST="https://music.apple.com/in/playlist/pl.u-r2yBDbPCREqBKRZ"
+export YOUTUBE_MUSIC_PLAYLIST="https://music.youtube.com/playlist?list=PLJoTxH8aW35XwA_sFqMgbAzCae8LIdaWn"
+export AMAZON_MUSIC_PLAYLIST="https://music.amazon.com/user-playlists/1661fcf9d5a345ae8a288b32472248f0i8n0"
 
 export MIN_DURATION=3600  
 export MAX_DURATION=3900  
